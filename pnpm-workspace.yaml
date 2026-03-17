@@ -1,0 +1,7 @@
+shellEmulator: true
+
+trustPolicy: no-downgrade
+
+onlyBuiltDependencies:
+  - '@heroui/shared-utils'
+  - simple-git-hooks
