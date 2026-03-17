@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { App } from './app'
 import { Provider } from './provider'
 
-import '@/style/index.css'
+import '@/styles/index.css'
 
 const root = createRoot(document.getElementById('root')!)
 

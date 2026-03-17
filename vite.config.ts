@@ -10,7 +10,7 @@ export default defineConfig({
   resolve: { tsconfigPaths: true },
   plugins: [
     autoImport({
-      dts: 'src/type/auto-imports.d.ts',
+      dts: 'src/types/auto-imports.d.ts',
       imports: [
         'react',
         'react-router-dom',
